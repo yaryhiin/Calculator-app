@@ -1,0 +1,80 @@
+.theme-3 {
+    background: hsl(268, 75%, 9%);
+
+    .calc {
+        color: hsl(52, 100%, 62%);
+    }
+
+    .calc-window {
+        background: hsl(268, 71%, 12%);
+    }
+
+    .previous-num {
+        color: hsl(33, 4%, 52%);
+    }
+
+    .num, .char {
+        background: hsl(268, 47%, 21%);
+        box-shadow: 0 2px hsl(290, 70%, 36%);
+    
+        &:active {
+            background: hsl(269, 48%, 15%);
+            box-shadow: 0 2px hsl(290, 70%, 28%);
+            transform: translateY(2px);
+        }
+    }
+
+    .active {
+        background: hsl(269, 48%, 15%);
+        box-shadow: 0 2px hsl(290, 70%, 28%);
+    }
+    
+    .blue {
+        background: hsl(281, 89%, 26%);
+        box-shadow: 0 2px hsl(285, 91%, 52%);
+        color: hsl(0, 0%, 100%);
+    
+        &:active {
+            background: hsl(281, 89%, 21%);
+            box-shadow: 0 2px hsl(285, 84%, 45%);
+            transform: translateY(2px);
+        }
+    }
+    
+    .red {
+        background: hsl(281, 89%, 26%);
+        box-shadow: 0 2px hsl(285, 91%, 52%);
+        color: hsl(0, 0%, 100%);
+    
+        &:active {
+            background: hsl(281, 89%, 21%);
+            box-shadow: 0 2px hsl(285, 84%, 45%);
+            transform: translateY(2px);
+        }
+    }
+    
+    .green {
+        background: hsl(176, 100%, 44%);
+        box-shadow: 0 2px hsl(177, 92%, 70%);
+        color: hsl(198, 20%, 13%);
+    
+        &:active {
+            background: hsl(176, 100%, 36%);
+            box-shadow: 0 2px hsl(177, 59%, 60%);
+            transform: translateY(2px);
+        }
+    }
+
+    .chooser {
+        background: hsl(268, 71%, 12%);
+        justify-content: flex-end;
+    }
+
+    .buttons {
+        background: hsl(268, 71%, 12%);
+    }
+
+    .circle {
+        background: hsl(6, 63%, 50%);
+    }
+}

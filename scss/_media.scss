@@ -1,0 +1,28 @@
+@media only screen and (max-width: 426px) {
+    .calc {
+        width: 80%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    .line button {
+        height: 3rem;
+        width: 23%;
+        font-size: larger;
+    }
+
+    .chooser {
+        height: 12px;
+        width: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .calc {
+        margin: 10% 35%;
+    }
+}
